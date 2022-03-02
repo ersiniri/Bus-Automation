@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E033172C-0DFF-4B4D-9196-8A78DDDCD595}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemAnaliziveTasarımı</RootNamespace>
+    <AssemblyName>SistemAnaliziveTasarımı</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="f_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_admin.Designer.cs">
+      <DependentUpon>f_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_adminbilgiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_adminbilgiler.Designer.cs">
+      <DependentUpon>f_adminbilgiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_biletsatış.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_biletsatış.Designer.cs">
+      <DependentUpon>f_biletsatış.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_kbilgiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_kbilgiler.Designer.cs">
+      <DependentUpon>f_kbilgiler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_kullanici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_kullanici.Designer.cs">
+      <DependentUpon>f_kullanici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_kullanicikayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_kullanicikayıt.Designer.cs">
+      <DependentUpon>f_kullanicikayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_giriş.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_giriş.Designer.cs">
+      <DependentUpon>f_giriş.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_kullanıcıbiletler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_kullanıcıbiletler.Designer.cs">
+      <DependentUpon>f_kullanıcıbiletler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_seferekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_seferekle.Designer.cs">
+      <DependentUpon>f_seferekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_tümbiletler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_tümbiletler.Designer.cs">
+      <DependentUpon>f_tümbiletler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_tümkullanıcılar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_tümkullanıcılar.Designer.cs">
+      <DependentUpon>f_tümkullanıcılar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_tümseferler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_tümseferler.Designer.cs">
+      <DependentUpon>f_tümseferler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_yardım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_yardım.Designer.cs">
+      <DependentUpon>f_yardım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="f_admin.resx">
+      <DependentUpon>f_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_adminbilgiler.resx">
+      <DependentUpon>f_adminbilgiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_biletsatış.resx">
+      <DependentUpon>f_biletsatış.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_kbilgiler.resx">
+      <DependentUpon>f_kbilgiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_kullanici.resx">
+      <DependentUpon>f_kullanici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_kullanicikayıt.resx">
+      <DependentUpon>f_kullanicikayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_giriş.resx">
+      <DependentUpon>f_giriş.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_kullanıcıbiletler.resx">
+      <DependentUpon>f_kullanıcıbiletler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_seferekle.resx">
+      <DependentUpon>f_seferekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_tümbiletler.resx">
+      <DependentUpon>f_tümbiletler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_tümkullanıcılar.resx">
+      <DependentUpon>f_tümkullanıcılar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_tümseferler.resx">
+      <DependentUpon>f_tümseferler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_yardım.resx">
+      <DependentUpon>f_yardım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Strings.tr.resx" />
+    <EmbeddedResource Include="Properties\Strings.en.resx" />
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otobüs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kapı.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
